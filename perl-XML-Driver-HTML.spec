@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Driver-HTML
+%define		pdir	XML
+%define		pnam	Driver-HTML
 Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
 Summary(pl):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformu³owanego HTML-a
 Name:		perl-XML-Driver-HTML
