@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Driver-HTML
 Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
-Summary(pl):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformu≥owanego HTML-a
+Summary(pl.UTF-8):   XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformu≈Çowanego HTML-a
 Name:		perl-XML-Driver-HTML
 Version:	0.06
 Release:	3
@@ -33,12 +33,12 @@ SAX events by walking a HTML::TreeBuilder object. The simplest kind of
 use, is a filter from HTML to XHTML using XML::Handler::YAWriter as a
 SAX Handler.
 
-%description -l pl
+%description -l pl.UTF-8
 XML::Driver::HTML to sterownik SAX dla HTML-a. Nie wymaga on, aby
-wej∂cie w HTML-u by≥o dobrze sformu≥owane, jako øe XML::Driver::HTML
-generuje zdarzenia SAX wÍdruj±c po obiekcie HTML::TreeBuilder.
-Najprostszym zastosowaniem jest filtr z HTML-a do XHTML-a przy uøyciu
-modu≥u XML::Handler::YAWriter jako procedury obs≥ugi SAX.
+wej≈õcie w HTML-u by≈Ço dobrze sformu≈Çowane, jako ≈ºe XML::Driver::HTML
+generuje zdarzenia SAX wƒôdrujƒÖc po obiekcie HTML::TreeBuilder.
+Najprostszym zastosowaniem jest filtr z HTML-a do XHTML-a przy u≈ºyciu
+modu≈Çu XML::Handler::YAWriter jako procedury obs≈Çugi SAX.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
