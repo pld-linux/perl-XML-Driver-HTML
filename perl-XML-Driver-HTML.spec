@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Driver-HTML
 Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
-Summary(pl.UTF-8):   XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformułowanego HTML-a
+Summary(pl.UTF-8):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformułowanego HTML-a
 Name:		perl-XML-Driver-HTML
 Version:	0.06
 Release:	3
