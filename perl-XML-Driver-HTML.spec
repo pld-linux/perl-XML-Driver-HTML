@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Driver-HTML
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
 Summary(pl.UTF-8):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformułowanego HTML-a
 Name:		perl-XML-Driver-HTML
@@ -15,6 +15,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	43f29d0060b4e22687ed91e651f0addb
+URL:		http://search.cpan.org/dist/XML-Driver-HTML/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
