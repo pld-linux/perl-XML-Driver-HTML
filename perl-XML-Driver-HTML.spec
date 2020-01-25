@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Driver-HTML
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
 Summary(pl.UTF-8):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformułowanego HTML-a
 Name:		perl-XML-Driver-HTML
