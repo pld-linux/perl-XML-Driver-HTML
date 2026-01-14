@@ -8,7 +8,7 @@ Summary:	XML::Driver::HTML - SAX Driver for non wellformed HTML
 Summary(pl.UTF-8):	XML::Driver::HTML - sterownik SAX dla niekoniecznie dobrze sformułowanego HTML-a
 Name:		perl-XML-Driver-HTML
 Version:	0.06
-Release:	3
+Release:	4
 # (c) 2001 GNU General Public License
 License:	GPL
 Group:		Development/Languages/Perl
